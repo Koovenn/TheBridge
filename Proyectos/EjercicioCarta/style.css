@@ -1,0 +1,16 @@
+body {
+    font-family: Garamond;
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+address {
+    line-height: 2.0;
+}
+
+#emisor {
+    text-align: right;
+}
