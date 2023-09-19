@@ -1,0 +1,53 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+header {
+    margin-top: 75px;
+}
+
+th {
+    background-color: rgba(221, 221, 221, 0.932);
+    outline-style: solid;
+    outline-width: thin;
+    padding: 2px 5px 2px;
+}
+
+td {
+    outline-style: solid;
+    outline-width: thin;
+    padding: 2px 5px 2px;
+}
+
+.center {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    width: 40%;
+    outline-style: solid;
+    outline-width: thin;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topnav {
+    text-align: center;
+    background-color: black;
+    background-size: cover;
+    width: 100%;
+    top: 0; left: 0;
+    position: fixed;
+}
+
+.topnav a {
+    color: white;
+    padding: 5px;
+    font-size: large;
+}
+
+#photos img {
+    padding: 3px;    
+}
