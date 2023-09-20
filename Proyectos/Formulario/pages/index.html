@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Viejuner</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" type="image/x-icon" href="">
+</head>
+
+<body>
+    <header>
+        <h1>Tu Formulario Viejuner</h1>
+        <h3>Por favor, registre sus datos en los campos designados:</h3>
+    </header>
+    <main>
+        <form action="#" id="contactForm"><b><u>Tú:</u></b>
+            <label for="fname"><i>Nombre:</i></label>
+            <input type="text" id="fname" name="fname" placeholder="Introduce tu nombre..." minlength="2">
+
+            <label for="lname"><i>Apellidos:</i></label>
+            <input type="text" id="lname" name="lname" placeholder="Introduce tus apellidos..." minlength="2">
+
+            <label for="age"><i>Edad:</i></label>
+            <input type="number" name="age" id="age" placeholder="69" step="1">
+
+            <label for="gender"><i>Sexo:</i></label>
+            <input type="radio" name="gender" id="gender">Masculino
+            <input type="radio" name="gender" id="gender">Femenino
+            <input type="radio" name="gender" id="gender">No quiero decirlo
+
+            <label for="feels"><i>Me siento Viejuner:</i></label>
+            <input type="checkbox" name="feels" id="feels">Varios días a la semana
+            <input type="checkbox" name="feels" id="feels">Cuando me llaman viejo
+            <input type="checkbox" name="feels" id="feels">Cuando mis nietos me dicen "yayo/a"
+            <input type="checkbox" name="feels" id="feels">Mientras voy a por el pan a las 6 AM
+            <input type="checkbox" name="feels" id="feels">Cuando gano las partidas de petanca del barrio
+
+            <label for="about"><i>Escribe algo sobre ti:</i></label>
+            <textarea name="about" id="about" cols="30" rows="5">Cuéntanos...</textarea>
+        </form>
+        <form action="#" id="contactAdress"><b><u>Tus circunstancias:</u></b>
+            <label for="mail">Email:</label>
+            <input type="email" name="mail" id="mail" placeholder="pacopetanca12@viejuner.old">
+
+            <label for="tel">Nº de contacto:</label>
+            <input type="tel" name="tel" id="tel" placeholder="+00123456789">
+        </form>
+    </main>
+    <footer></footer>
+</body>
+</html>
