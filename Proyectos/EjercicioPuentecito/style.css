@@ -1,0 +1,172 @@
+/*Web*/
+* {
+    margin: 10px;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: white;
+    border-radius: 5px;
+    border-style: groove;
+    border-color: black;
+}
+
+/*Header*/
+nav a {
+    font-size: 20px;
+    color: black;
+    padding: 15px;
+}
+h2 {
+    text-transform: uppercase;
+    font-size: 28px;
+}
+h3 {
+    font-size: 24px;
+}
+ul {
+    list-style: none;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+/*Exorcista*/
+.exor_gif {
+    max-width: 500px;
+    float: right;
+    border: solid black;
+    border-radius: 5px;
+}
+.exor > h2 {
+    text-align: left;
+    margin-top: 30px;
+}
+.exor > h3 {
+    text-align: justify;
+}
+.exor > p {
+    font-size: 22px;
+    text-align: justify;
+    column-count: 3;
+    column-gap: 50px;
+    column-rule-style: solid;
+    column-rule-width: 1px;
+    padding: 10px;
+}
+
+/*Mono*/
+.mono_gif {
+    max-width: 320px;
+    float: right;
+    border: solid black;
+    border-radius: 5px;
+    margin: 0 0 10px 10px;
+}
+.mono > h2 {
+    text-align: center;
+    margin-top: 30px;
+}
+.mono > h3 {
+    text-align: justify;
+}
+.mono > p {
+    font-size: 18px;
+    text-align: justify;
+    column-count: 2;
+    column-gap: 50px;
+    column-rule-style: solid;
+    column-rule-width: 1px;
+    padding: 10px;
+}
+
+/*Peques*/
+.peques_gif {
+    float: left;
+    border: solid black;
+    border-radius: 5px;
+    margin: 40px;
+}
+.peques > h2 {
+    text-align: left;
+    margin-top: 30px;
+}
+.peques > h3 {
+    text-align: left;
+}
+.peques > p {
+    font-size: 20px;
+    text-align: justify;
+    column-count: 3;
+    column-gap: 50px;
+    column-rule-style: solid;
+    column-rule-width: 1px;
+    padding: 10px;
+}
+
+/*Planta*/
+.planta_gif {
+    float: left;
+    border: solid black;
+    border-radius: 5px;
+    margin: 40px 20px 20px 0;
+}
+.planta > h2 {
+    text-align: left;
+    margin-top: 30px;
+}
+.planta > h3 {
+    text-align: left;
+}
+.planta > p {
+    font-size: 20px;
+    text-align: justify;
+    padding: 10px;
+}
+
+/*Caca*/
+.popaux_gif {
+    max-width: 320px;
+    float: right;
+    border: solid black;
+    border-radius: 5px;
+    margin: 20px;
+    margin-right: 0;
+}
+.popaux > h2 {
+    text-align: left;
+    margin-top: 30px;
+}
+.popaux > p {
+    font-size: 20px;
+    text-align: justify;
+    padding: 10px;
+}
+
+/*id*/
+#header_center {
+    font-size: 36px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:  #86888869;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 20px;
+    border: solid black;
+    border-radius: 5px;
+}
+#intro {
+    float: right;
+    max-width: 8%;
+    border: solid black;
+    border-radius: 5px;
+}
+#logo {
+    float: left;
+}
+#exor, #peques {
+    border: solid black;
+    border-radius: 5px;
+    background-color: #dddddc85;
+}
