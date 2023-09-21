@@ -1,0 +1,11 @@
+.flexbox-item {
+    background-color: grey;
+    border: 2px solid black;
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+}
+.flexbox-container {
+    display: flex;
+    flex-direction: column;
+}

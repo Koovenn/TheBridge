@@ -1,0 +1,38 @@
+main {
+    background-color: rgb(110, 158, 158);
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.flex_container1 {
+    background-color: #efe8e8;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    width: 325px;
+    height: auto;
+}
+
+.images {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    margin: 10px;
+}
+
+.images img {
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    margin-top: 10px;
+}
+
+.images2, .images3, .images4 {
+    border-top: solid 0.5px rgba(177, 177, 177, 0.493);
+}
